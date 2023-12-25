@@ -1,0 +1,7 @@
+{
+  "name": "dream-catcher",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
