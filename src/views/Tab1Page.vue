@@ -20,9 +20,8 @@
             <p>Your last dream was :
               <span class="font-bold">"I was in a forest"</span>
             </p>
-            <ion-button expand="block" @click="$router.push('/add-dream')">Add Dream</ion-button>
+            <ion-button expand="block" href="/add-dream">Add Dream</ion-button>
           </div>
-
 
 
         </ion-card-content>
@@ -34,7 +33,7 @@
         <ion-card-content>
           <div>
             <p>reality checks</p>
-            <ion-button expand="block" @click="$router.push('/reality-check')">Reality Check</ion-button>
+            <ion-button expand="block" href="/reality-check">Reality Check</ion-button>
           </div>
         </ion-card-content>
       </ion-card>

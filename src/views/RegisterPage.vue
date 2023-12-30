@@ -30,11 +30,10 @@
           <ion-item>
             <ion-input label="Confirm Password" label-placement="floating" type="password"></ion-input>
           </ion-item>
-          <ion-button expand="block" @click="$router.push('/tabs/tab1')" >Register</ion-button>
-          <ion-button expand="block" @click="$router.push('/login')">Login</ion-button>
+          <ion-button expand="block" href="/tabs/tab1" >Register</ion-button>
+          <ion-button expand="block" href="/login">Login</ion-button>
         </ion-card-content>
       </ion-card>
-
     </ion-content>
   </ion-page>
 </template>

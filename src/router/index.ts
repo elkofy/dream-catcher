@@ -19,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
         name: 'RegisterPage'
     },
     {
+        path:'/add-dream',
+        component: () => import('@/views/AddDreamPage.vue'),
+        name: 'AddDreamPage'
+    },
+    {
         path: '/tabs/',
         component: TabsPage,
         children: [

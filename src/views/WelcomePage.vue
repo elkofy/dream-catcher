@@ -34,14 +34,14 @@ const items = ref([
       <div class="flex flex-col gap-5 justify-between items-center">
         <div class="flex flex-col items-center justify-center px-4 py-2 my-6">
           <p class="text-xl text-center">Already familiar ?</p>
-          <ion-button class="w-fit" @click="$router.push({name: 'LoginPage'})" color="dark">
+          <ion-button class="w-fit" href="/login" color="dark">
             Login
           </ion-button>
         </div>
         <div class="flex flex-col h-full align-middle justify-center">
           <WelcomeCarrousel title="Introduction" :slides="items" :current-slide="0">
             <template #call-to-action>
-              <ion-button @click="$router.push('/tabs/tab1')" color="dark">
+              <ion-button href="/tabs/tab1" color="dark">
                 Let's go !
               </ion-button>
             </template>
